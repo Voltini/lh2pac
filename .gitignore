@@ -6,3 +6,4 @@ project/build
 project/source/examples
 project/source/results
 MARILib_obj_edu/example/.pytest_cache
+sync.bat

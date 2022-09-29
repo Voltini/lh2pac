@@ -8,12 +8,11 @@ Created on Thu Jan 20 20:20:20 2020
 """
 
 import numpy as np
-
-from marilib.utils import unit
-from marilib.aircraft.aircraft_root import Arrangement, Aircraft
-from marilib.aircraft.requirement import Requirement
-from marilib.utils.read_write import MarilibIO
+from marilib.aircraft.aircraft_root import Aircraft, Arrangement
 from marilib.aircraft.design import process
+from marilib.aircraft.requirement import Requirement
+from marilib.utils import unit
+from marilib.utils.read_write import MarilibIO
 
 
 def fct_turbofan_h2(techno, design, mode):

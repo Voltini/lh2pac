@@ -1,7 +1,3 @@
-"""
-H2TurboFan: definition
-######################
-"""
 from pathlib import Path
 from typing import Dict, Iterable, Mapping, Union
 
@@ -9,10 +5,9 @@ from gemseo.algos.opt_problem import OptimizationProblem
 from gemseo.core.discipline import MDODiscipline
 from marilib.utils import unit
 from numpy import array, ndarray
-import sys 
-sys.path.insert(0, '/home/minhha/Study/ModIA5/lh2pac/h2_turbofan/')
 
-from turbofan_h2_function import fct_turbofan_h2, str_h2turbofan
+from .turbofan_h2_function import fct_turbofan_h2, str_h2turbofan
+
 
 class H2TurboFan(MDODiscipline):
     """Wrapper of the MARILib-based function :meth:`fct_turbofan_h2`.
@@ -49,10 +44,10 @@ class H2TurboFan(MDODiscipline):
         super(H2TurboFan, self).__init__()
 
         # Define the input and output variables.
-        self.input_grammar.initialize_from_data_names(
+        self.input_grammar.update(
             self.DESIGN_VARIABLES + self.TECHNOLOGICAL_VARIABLES
         )
-        self.output_grammar.initialize_from_data_names(self.OUTPUT_VARIABLES)
+        self.output_grammar.update(self.OUTPUT_VARIABLES)
 
         # Define the default inputs.
         self.default_inputs.update(self.DEFAULT_DESIGN_VALUES)
@@ -146,4 +141,3 @@ class H2TurboFan(MDODiscipline):
         data["far"] += 13.4
         cls.print_results(data)
         return data
-

@@ -22,7 +22,7 @@ from sphinx_gallery.sorting import ExampleTitleSortKey
 
 project = "LH2PAC project"
 copyright = "2022, Matthias De Lozzo"
-author = "Matthias De Lozzo"
+author = "Matthias De Lozzo - Minhha"
 
 
 # -- General configuration ---------------------------------------------------

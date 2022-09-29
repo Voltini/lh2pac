@@ -1,0 +1,6 @@
+-e h2_turbofan 
+-e MARILib_obj_edu 
+gemseo 
+gemseo-mlearning 
+sphinx 
+furo 

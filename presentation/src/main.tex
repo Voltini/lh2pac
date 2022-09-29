@@ -265,21 +265,14 @@ we will solve the problem  compare the optima found with $\hat{g}$ and $g$.
 
 \begin{frame}{Prerequisites}
     \begin{itemize}
-        \item Clone the branch \textit{modia} of the project \href{https://gitlab.com/MatthiasDeLozzo/l2pac/-/tree/modia}{LH2PAC}:
+        \item Clone the branch \textit{modia} of the project \href{https://gitlab.com/MatthiasDeLozzo/n2pac/-/tree/modia}{LH2PAC}:
             \begin{itemize}
-                \item SSH: \underline{\texttt{git clone -b modia git@gitlab.com:MatthiasDeLozzo/l2pac.git}}.
-                \item HTTPS: \underline{\texttt{git clone -b modia https://gitlab.com/MatthiasDeLozzo/l2pac.git}}.
+                \item SSH: \underline{\texttt{git clone -b modia git@gitlab.com:MatthiasDeLozzo/n2pac.git}}.
+                \item HTTPS: \underline{\texttt{git clone -b modia https://gitlab.com/MatthiasDeLozzo/n2pac.git}}.
             \end{itemize}
         \item Add the absolute path of the project directory to your \texttt{PYTHONPATH}.
-        \item Create an anaconda environment named \textit{lh2pac} with
-        \begin{itemize}
-            \item \texttt{conda create -n lh2pac}
-            \item \texttt{pip install gemseo[all]}
-            \item \texttt{pip install gemseo\_mlearning}
-            \item \texttt{pip install sphinx}
-            \item \texttt{pip install furo}
-            \item \texttt{pip install sphinx\_gallery}
-        \end{itemize}
+        \item Create an anaconda environment named \textit{lh2pac}
+              with the command \underline{\texttt{conda env create -f environment}}.
     \end{itemize}
 \end{frame}
 \begin{frame}{First steps}

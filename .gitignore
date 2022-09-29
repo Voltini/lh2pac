@@ -7,3 +7,5 @@ project/source/examples
 project/source/results
 MARILib_obj_edu/example/.pytest_cache
 sync.bat
+h2_turbofan/h2_turbofan.egg-info/*
+MARILib_obj_edu/marilib.egg-info/*

@@ -7,3 +7,6 @@ project/source/examples
 project/source/results
 src/lh2pac/example/.pytest_cache
 .venv/
+**/generated
+*.pkl
+*.json

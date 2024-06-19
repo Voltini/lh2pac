@@ -20,6 +20,7 @@ requires-python = ">=3.9, <3.12"
 dependencies = [
     "gemseo[all] >= 5.3.0",
     "gemseo-mlearning >= 1.1.2",
+    "gemseo-umdo >= 2.0.1",
     "griffe-inherited-docstrings",
     "mkdocs-gallery",
     "mkdocs-section-index",
@@ -29,6 +30,7 @@ dependencies = [
     "mkdocs-material",
     "mkdocs-include-markdown-plugin",
     "mkdocs-bibtex",
+    "streamlit >= 1.35.0",
     "tabulate",
     "black"
 ]

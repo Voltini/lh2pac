@@ -10,3 +10,4 @@ src/lh2pac/example/.pytest_cache
 **/generated
 *.pkl
 *.json
+*.png

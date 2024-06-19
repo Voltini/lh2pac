@@ -1,48 +1,10 @@
-﻿# The LH2PAC project
+﻿# **Disclaimer:**
+- This repository is a fork of the [lh2pac repository](https://gitlab.com/MatthiasDeLozzo/lh2pac/-/tree/modia2024?ref_type=heads).
+- The delivrables are in the folder `livrables` please change directory to this folder after creating the virtual environment and installing the dependencies.
+- The command to start the GUI is: `streamlit run ihm.py`
+- All the code that realizes the project is in the jupyter notebook
 
-LH2PAC is a Python-based academic project proposed by Matthias De Lozzo and Thierry Druot
-in the frame of the course **"Metamodels"**
-from the [ModIA program](https://www.math.insa-toulouse.fr/fr/enseignement/apprentissage-modia.html).
-
-## Installation
-
-### Git
-
-#### Clone (only once)
-
-In your favorite working directory,
-e.g. `"my_wd"`,
-
-```
-git clone git@gitlab.com:MatthiasDeLozzo/lh2pac.git
-```
-
-This will create a directory `"lh2pac"` in `"my_wd"`.
-
-#### Create a working branch (only once)
-
-In the directory `"lh2pac"`:
-
-```
-git checkout origin/modia2024 -b my_modia2024  
-```
-
-#### Rebase your working branch
-
-From time to time, 
-I can update the _git_ project with miscellaneous information; 
-you will then have to rebase your branch.
-
-Make sure you are on `my_modia2024`; 
-otherwise: `git checkout my_modia2024`.
-
-In the directory `"my_wd/lh2pac"`:
-
-```
-git fetch origin
-git rebase origin/modia2024
-```
-
+# Before running the programs
 ### Create a virtual environment (only once)
 
 In the directory `"lh2pac"`:
@@ -64,18 +26,6 @@ In the directory `"lh2pac"`:
     pip install --editable .
     .venv\Scripts\deactivate.bat
     ```
-
-### Configure your IDE (only once)
-
-Select the Python interpreter: 
-
-=== "Linux"
-
-    `"my_wd/lh2pac/.venv/bin/python"`
-
-=== "Windows"
-
-    `"lh2pac\.venv\Scripts\python.exe"`
 
 ### Use your virtual environment in a Python console
 

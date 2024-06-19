@@ -86,3 +86,10 @@ to do so, use the following command.
     ```
 
 The LH2PAC adventure starts here!
+
+# Project group:
+### ModIA class of 2025:
+- Baptiste Giraud
+- Aymane Kssim
+- Jonas Meyran
+- Lucas Zuliani

@@ -26,7 +26,7 @@ def draw_airplane(sliders: dict[str, float]):
     return fig, logs
 
 
-with open("optimums.pkl", "rb") as f:
+with open("optimums.pickle", "rb") as f:
     optimums_dict = pickle.load(f)
 
 input_variables = [

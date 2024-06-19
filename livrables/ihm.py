@@ -49,8 +49,6 @@ choice = columns[0].selectbox(
 
 sliders = {}
 for input_var in input_variables:
-    if not choice is None:
-        print(optimums_dict[choice][input_var.dict_name])
     sliders[input_var.dict_name] = np.array(
         [
             (
